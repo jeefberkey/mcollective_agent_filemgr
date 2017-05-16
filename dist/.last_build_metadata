@@ -1,0 +1,12 @@
+---
+git_hash: 65e36421b871d0d8e911491f6a90653250378b1f HEAD
+rpms:
+  dist/pupmod-choria-mcollective_agent_filemgr-1.1.0-2016.1.noarch.rpm:
+    metadata:
+      :has_dist_tag: false
+      :name: pupmod-choria-mcollective_agent_filemgr
+      :version: 1.1.0
+      :release: '2016.1'
+      :arch: noarch
+      :full_version: 1.1.0-2016.1
+    size: 10684

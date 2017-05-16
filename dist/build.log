@@ -1,0 +1,89 @@
+Mock Version: 1.3.4
+ENTER ['do'](['bash', '--login', '-c', '/usr/bin/rpmbuild -bs --target x86_64 --nodeps /builddir/build/SPECS/mcollective_agent_filemgr.spec'], logger=<mockbuild.trace_decorator.getLog object at 0x7fcb09137518>timeout=0chrootPath='/var/lib/mock/epel-7-x86_64-pupmod-choria-mcollective_agent_filemgr__nick__1494954749817/root'shell=FalseprintOutput=Falsenspawn_args=[]user='mockbuild'gid=135env={'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOSTNAME': 'mock', 'HOME': '/builddir', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'en_US.UTF-8', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"'}uid=1000)
+Executing command: ['bash', '--login', '-c', '/usr/bin/rpmbuild -bs --target x86_64 --nodeps /builddir/build/SPECS/mcollective_agent_filemgr.spec'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOSTNAME': 'mock', 'HOME': '/builddir', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'en_US.UTF-8', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"'} and shell False
+warning: Could not canonicalize hostname: munch
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /builddir/build/SRPMS/pupmod-choria-mcollective_agent_filemgr-1.1.0-2016.1.src.rpm
+Child return code was: 0
+Mock Version: 1.3.4
+ENTER ['do'](['bash', '--login', '-c', '/usr/bin/rpmbuild -bs --target x86_64 --nodeps /builddir/build/SPECS/mcollective_agent_filemgr.spec'], timeout=0env={'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'TERM': 'vt100', 'SHELL': '/bin/bash', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'LANG': 'en_US.UTF-8', 'HOME': '/builddir', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'HOSTNAME': 'mock'}user='mockbuild'nspawn_args=[]logger=<mockbuild.trace_decorator.getLog object at 0x7f4f4b7e04e0>shell=FalsechrootPath='/var/lib/mock/epel-7-x86_64-pupmod-choria-mcollective_agent_filemgr__nick__1494954749817/root'uid=1000printOutput=Falsegid=135)
+Executing command: ['bash', '--login', '-c', '/usr/bin/rpmbuild -bs --target x86_64 --nodeps /builddir/build/SPECS/mcollective_agent_filemgr.spec'] with env {'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'TERM': 'vt100', 'SHELL': '/bin/bash', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'LANG': 'en_US.UTF-8', 'HOME': '/builddir', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'HOSTNAME': 'mock'} and shell False
+warning: Could not canonicalize hostname: munch
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /builddir/build/SRPMS/pupmod-choria-mcollective_agent_filemgr-1.1.0-2016.1.src.rpm
+Child return code was: 0
+ENTER ['do'](['bash', '--login', '-c', '/usr/bin/rpmbuild -bb --target x86_64 --nodeps /builddir/build/SPECS/mcollective_agent_filemgr.spec'], timeout=0env={'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'TERM': 'vt100', 'SHELL': '/bin/bash', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'LANG': 'en_US.UTF-8', 'HOME': '/builddir', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'HOSTNAME': 'mock'}user='mockbuild'nspawn_args=[]logger=<mockbuild.trace_decorator.getLog object at 0x7f4f4b7e04e0>shell=FalsechrootPath='/var/lib/mock/epel-7-x86_64-pupmod-choria-mcollective_agent_filemgr__nick__1494954749817/root'uid=1000printOutput=Falsegid=135)
+Executing command: ['bash', '--login', '-c', '/usr/bin/rpmbuild -bb --target x86_64 --nodeps /builddir/build/SPECS/mcollective_agent_filemgr.spec'] with env {'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'TERM': 'vt100', 'SHELL': '/bin/bash', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'LANG': 'en_US.UTF-8', 'HOME': '/builddir', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'HOSTNAME': 'mock'} and shell False
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.oMOU6o
++ umask 022
++ cd /builddir/build/BUILD
++ cd /builddir/build/BUILD
++ rm -rf pupmod-choria-mcollective_agent_filemgr-1.1.0
++ /usr/bin/gzip -dc /builddir/build/SOURCES/pupmod-choria-mcollective_agent_filemgr-1.1.0-2016.1.tar.gz
++ /usr/bin/tar -xf -
++ STATUS=0
++ '[' 0 -ne 0 ']'
++ cd pupmod-choria-mcollective_agent_filemgr-1.1.0
++ /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.zHfL9E
++ umask 022
++ cd /builddir/build/BUILD
++ cd pupmod-choria-mcollective_agent_filemgr-1.1.0
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.YoMLdV
++ umask 022
++ cd /builddir/build/BUILD
++ '[' /builddir/build/BUILDROOT/pupmod-choria-mcollective_agent_filemgr-1.1.0-2016.1.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/pupmod-choria-mcollective_agent_filemgr-1.1.0-2016.1.x86_64
+++ dirname /builddir/build/BUILDROOT/pupmod-choria-mcollective_agent_filemgr-1.1.0-2016.1.x86_64
++ mkdir -p /builddir/build/BUILDROOT
++ mkdir /builddir/build/BUILDROOT/pupmod-choria-mcollective_agent_filemgr-1.1.0-2016.1.x86_64
++ cd pupmod-choria-mcollective_agent_filemgr-1.1.0
++ '[' /builddir/build/BUILDROOT/pupmod-choria-mcollective_agent_filemgr-1.1.0-2016.1.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/pupmod-choria-mcollective_agent_filemgr-1.1.0-2016.1.x86_64
++ mkdir -p /builddir/build/BUILDROOT/pupmod-choria-mcollective_agent_filemgr-1.1.0-2016.1.x86_64//usr/share/simp/modules
+++ pwd
++ curdir=/builddir/build/BUILD/pupmod-choria-mcollective_agent_filemgr-1.1.0
+++ basename /builddir/build/BUILD/pupmod-choria-mcollective_agent_filemgr-1.1.0
++ dirname=pupmod-choria-mcollective_agent_filemgr-1.1.0
++ cp -r ../pupmod-choria-mcollective_agent_filemgr-1.1.0 /builddir/build/BUILDROOT/pupmod-choria-mcollective_agent_filemgr-1.1.0-2016.1.x86_64//usr/share/simp/modules/mcollective_agent_filemgr
++ rm -rf /builddir/build/BUILDROOT/pupmod-choria-mcollective_agent_filemgr-1.1.0-2016.1.x86_64//usr/share/simp/modules/mcollective_agent_filemgr/.git
++ rm -f '/builddir/build/BUILDROOT/pupmod-choria-mcollective_agent_filemgr-1.1.0-2016.1.x86_64//usr/share/simp/modules/*.lock'
++ rm -rf /builddir/build/BUILDROOT/pupmod-choria-mcollective_agent_filemgr-1.1.0-2016.1.x86_64//usr/share/simp/modules/spec/fixtures/modules
++ rm -rf /builddir/build/BUILDROOT/pupmod-choria-mcollective_agent_filemgr-1.1.0-2016.1.x86_64//usr/share/simp/modules/dist
++ rm -rf /builddir/build/BUILDROOT/pupmod-choria-mcollective_agent_filemgr-1.1.0-2016.1.x86_64//usr/share/simp/modules/junit
++ rm -rf /builddir/build/BUILDROOT/pupmod-choria-mcollective_agent_filemgr-1.1.0-2016.1.x86_64//usr/share/simp/modules/log
++ /usr/lib/rpm/find-debuginfo.sh --strict-build-id -m --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 /builddir/build/BUILD/pupmod-choria-mcollective_agent_filemgr-1.1.0
+/usr/lib/rpm/sepdebugcrcfix: Updated 0 CRC32s, 0 CRC32s did match.
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-compress
++ /usr/lib/rpm/redhat/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/brp-python-bytecompile /usr/bin/python 1
++ /usr/lib/rpm/redhat/brp-python-hardlink
++ /usr/lib/rpm/redhat/brp-java-repack-jars
+Processing files: pupmod-choria-mcollective_agent_filemgr-1.1.0-2016.1.noarch
+Provides: choria-mcollective_agent_filemgr = 1.1.0-2016.1 pupmod-choria-mcollective_agent_filemgr = 1.1.0-2016.1 pupmod-mcollective_agent_filemgr = 1.1.0-2016.1
+Requires(interp): /bin/sh /bin/sh /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(pre): /bin/sh simp-adapter >= 0.0.1
+Requires(post): /bin/sh simp-adapter >= 0.0.1
+Requires(preun): /bin/sh simp-adapter >= 0.0.1
+Requires(postun): /bin/sh simp-adapter >= 0.0.1
+Obsoletes: pupmod-mcollective_agent_filemgr < 1.1.0-2016.1 choria-mcollective_agent_filemgr < 1.1.0-2016.1
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/pupmod-choria-mcollective_agent_filemgr-1.1.0-2016.1.x86_64
+warning: Could not canonicalize hostname: munch
+Wrote: /builddir/build/RPMS/pupmod-choria-mcollective_agent_filemgr-1.1.0-2016.1.noarch.rpm
+Executing(%clean): /bin/sh -e /var/tmp/rpm-tmp.sxhKys
++ umask 022
++ cd /builddir/build/BUILD
++ cd pupmod-choria-mcollective_agent_filemgr-1.1.0
++ '[' /builddir/build/BUILDROOT/pupmod-choria-mcollective_agent_filemgr-1.1.0-2016.1.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/pupmod-choria-mcollective_agent_filemgr-1.1.0-2016.1.x86_64
++ mkdir -p /builddir/build/BUILDROOT/pupmod-choria-mcollective_agent_filemgr-1.1.0-2016.1.x86_64//usr/share/simp/modules
++ exit 0
+Child return code was: 0
